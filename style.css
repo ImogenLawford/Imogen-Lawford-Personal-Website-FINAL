@@ -45,7 +45,7 @@ body {
   }
 
   /*My name title of website*/
-#MyName {
+.MyName {
   padding-top: 120px;
   color: #645079;
   margin-top: 58px;
@@ -57,9 +57,9 @@ body {
 
 #HelloThere{
   font-size: 180px;
+  madding-bottom: -5px;
   color: 	#f2ebe3;
   font-family: 'Playfair Display', serif;
-  margin-top: -18%;
   font-weight: 300px;
   margin-left: -1%;
 }
@@ -69,7 +69,7 @@ body {
   font-size: 180px;
   color: 	#f2ebe3;
   font-family: 'Playfair Display', serif;
-  margin-top: -10%;
+  margin-top: -8%;
   font-weight: 330px;
   margin-left: -0.5%;
 }
@@ -80,13 +80,14 @@ body {
   color: #7F6F7B;
   font-family: 'League Spartan', sans-serif;
   font-size: 26px;
-  text-align: center;
   margin-top: 50px;
   margin-bottom: 7%;
-  margin-left: 280px;
-  margin-right: 280px;
+  margin-left: 10%;
+  margin-right: 10%;
   font-weight: 350;
+  text-align: center;
 }
+
 #traits2 {
   color: #7F6F7B;
   font-family: 'League Spartan', sans-serif;
@@ -101,25 +102,18 @@ body {
 
 .wrapper{
   background-color: #FFF1E6;
-  padding-bottom: 23%;
 }
 
 .mediaSocials{
-  position: absolute;
-  padding-top: 3%;
-  top: 70%;
-  margin-bottom: 55%;
-  left: 50%;
-  transform: translate(-53%, -50%);
+  text-align: center;
+  margin-top: 10%;
+  
 }
 .LinkSocials{
-  position: absolute;
-  padding-top: 7%;
-  top: 370%;
+  margin-top: 10%;
   margin-bottom: 55%;
-  left: 50%;
   underline: none;
-  transform: translate(-53%, -50%);
+  text-align: center;
   color: #93858f;
 }
 .Linkz{
@@ -176,14 +170,14 @@ body {
 .card {
   background-color:#f2ebe3;
   padding-top: 120px;
-  padding-bottom: 300px;
+  padding-bottom: 160px;
 }
 .cardProjects {
   background-color:#f2ebe3;
   padding: 2em;
   margin-left: 55%;
   margin-right:-5%;
-  margin-top: -33%;
+  margin-top: -28%;
   border-radius: 3%;
   font-size: 18px;
   border: 1px solid  #93858f;
@@ -192,13 +186,16 @@ body {
   text-align: left;
   letter-spacing: 2px;
   line-spacing:2px;
+  display: block;
 }
 .cardProjects1 {
   background-color:#f2ebe3;
+  display: block;
   color: #93858f;
   padding: 2em;
-  margin-left: 45%;
-  margin-top: -36%;
+  margin-left: 55%;
+  margin-right: -5%;
+  margin-top: -32%;
   border-radius: 3%;
   font-size: 18px;
   border: 1px solid  #93858f;
@@ -217,9 +214,8 @@ body {
   
 /*My portrait*/ 
 .portrait {
-  position: relative;
   display: block;
-  width: 40%;
+  width: 38%;
   margin-left: 60px;
   margin-top: 50px;
   height: 25%;
@@ -229,19 +225,17 @@ body {
 }
 /*The overlay text*/
 .Overlay {
- font-family: 'League Spartan', sans-serif;
-  display: block;
-  margin-left: 35%;
-  margin-top: -49%;
-  margin-right: auto;
+  font-family: 'League Spartan', sans-serif;
+  align-items: right;
   text-align: center;
   width: 60%;
-  height: 48%;
+  margin-top: -48%;
+  margin-left: 36%;
+  padding-left: 17px;
   border-radius: 3%;
   color: #93858f;
   letter-spacing: 2px;
   font-size: 20px;
-  position: absolute;
 }
 
 /*Text overlays portrait when hovered over*/
@@ -254,7 +248,7 @@ body {
   font-weight: 200px;
   font-size: 30px;
   left: 100%;
-  margin-left: -22%;
+  margin-left: -18%;
 }
 #header2{
   font-family: 'League Spartan', sans-serif;
@@ -273,7 +267,7 @@ body {
   padding-top: 20px;
   margin-top:10px;
   color: #93858f;
-  margin-left: 33%;
+  text-align: center;
 }
 
 }
@@ -369,7 +363,7 @@ font-size: 20px;
   padding-top: 70px;
   padding-bottom: 3px;
   text-align: center;
-   font-family: 'League Spartan', sans-serif;
+  font-family: 'League Spartan', sans-serif;
 }
 
 #topProjectTitle {
@@ -383,7 +377,8 @@ font-size: 20px;
   font-size: 30px;
   font-weight: 100px;
   padding-top: 5%;
-  margin-left: 55%;
+  margin-left: 62%;
+  margin-bottom: 2%;
   font-family: 'League Spartan', sans-serif;
 }
 /* Link to projects*/
@@ -784,7 +779,3 @@ background-color:#f2ebe3;
 #timelinetitle1 {
   font-size: 20px;
 }
-/* Make sure all circles are at the same spot */
-
-/* Make all right containers behave like the left ones */
-
