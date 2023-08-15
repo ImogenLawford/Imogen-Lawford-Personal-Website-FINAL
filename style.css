@@ -376,9 +376,15 @@ font-size: 20px;
 #topProjectTitle1 {
   font-size: 30px;
   font-weight: 100px;
-  padding-top: 5%;
+  padding-top: 20%;
   margin-left: 62%;
-  margin-bottom: 2%;
+  font-family: 'League Spartan', sans-serif;
+}
+#topProjectTitle2 {
+  font-size: 30px;
+  font-weight: 100px;
+  padding-top: 6%;
+  margin-left: 59%;
   font-family: 'League Spartan', sans-serif;
 }
 /* Link to projects*/
@@ -448,6 +454,16 @@ font-size: 20px;
   width: 320px;
   height: 360px;
 }
+#projectImage7 {
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: 60%;
+  text-align: center;
+  width: 400px;
+  height: 340px;
+}
 /* My journey page awards*/
 #Awardssection {
   padding-top: 80px;
@@ -483,6 +499,13 @@ font-size: 20px;
   margin-top: 12px;
   margin-left: 2%;
   list-style-type: circle;
+}
+
+.awardNote{
+  margin-top: 12px;
+  font-size: 18px;
+  margin-left: 2%;
+   color: #93858f;
 }
 
 /* Awards paragraphs*/
